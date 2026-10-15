@@ -24,9 +24,9 @@ npm run build    # 打包到 dist/
 
 1. 登录 Cloudflare 控制台 → **Workers 和 Pages** → **创建** → **导入存储库**，选择这个 GitHub 仓库。
 2. 构建设置：
-   - 构建命令：`npm run build`
+   - 构建命令：可以留空（`wrangler.jsonc` 里已配置部署前自动执行 `npm install && npm run build`）
    - 部署命令：`npx wrangler deploy`
-3. 保存并部署。项目里的 `wrangler.jsonc` 已经配好了，会把 `dist/` 作为静态网站发布。
+3. 保存并部署。打包好的 `dist/` 会作为静态网站发布。
 
 ### 方式二：Cloudflare Pages
 

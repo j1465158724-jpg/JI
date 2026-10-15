@@ -78,7 +78,7 @@ export const profile = {
   // 联络频道
   contacts: [
     { channel: 'GitHub', value: 'j1465158724-jpg', href: 'https://github.com/j1465158724-jpg' },
-    { channel: '电子邮件', value: 'you@example.com', href: 'mailto:you@example.com' },
+    { channel: '电子邮件', value: 'j1465158724@gmail.com', href: 'mailto:j1465158724@gmail.com' },
   ],
 
   // 页脚落款
